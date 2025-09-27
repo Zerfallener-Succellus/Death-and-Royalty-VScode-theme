@@ -1,0 +1,194 @@
+{
+    "name": "Death and Royalty",
+    "type": "dark",
+    "colors": {
+        // --- Cores da Interface Principal ---
+        "editor.background": "#1A1B26",
+        "editor.foreground": "#E0DCD3",
+        "sideBar.background": "#1A1B26",
+        "sideBar.foreground": "#E0DCD3",
+        "sideBar.border": "#313244",
+        "activityBar.background": "#313244",
+        "activityBar.foreground": "#E0DCD3",
+        "statusBar.background": "#313244",
+        "statusBar.foreground": "#E0DCD3",
+        "statusBar.noFolderBackground": "#313244",
+
+        // --- Barra de Título (Frame) ---
+        // As cores que controlam a barra de título do VS Code quando window.titleBarStyle é 'custom'
+        "titleBar.activeBackground": "#1A1B26",
+        "titleBar.activeForeground": "#E0DCD3",
+        "titleBar.inactiveBackground": "#1A1B26",
+        "titleBar.inactiveForeground": "#585b70",
+        "window.activeBorder": "#5D68A6", // Borda da janela ativa
+        "window.inactiveBorder": "#313244", // Borda da janela inativa
+
+        // --- Listas e Seleções ---
+        "list.activeSelectionBackground": "#5D68A6",
+        "list.activeSelectionForeground": "#F0EDE9",
+        "list.inactiveSelectionBackground": "#313244",
+        "list.inactiveSelectionForeground": "#E0DCD3",
+        "list.hoverBackground": "#313244",
+
+        // --- Abas do Editor (Tabs) ---
+        "editorGroupHeader.tabsBackground": "#1A1B26",
+        "tab.inactiveBackground": "#1A1B26",
+        "tab.activeBackground": "#313244",
+        "tab.activeForeground": "#F0EDE9",
+        "tab.inactiveForeground": "#585b70",
+        "tab.hoverBackground": "#313244",
+        "tab.hoverForeground": "#E0DCD3",
+        "tab.border": "#1A1B26", // Borda entre abas (invisível neste caso)
+        "tab.activeBorder": "#5D68A6", // Borda inferior da aba ativa
+        "tab.activeBorderTop": "#5D68A6", // Borda superior da aba ativa
+
+        // --- Editor de Texto ---
+        "editorCursor.foreground": "#D7C995",
+        "editorLineNumber.foreground": "#585b70",
+        "editorLineNumber.activeForeground": "#E0DCD3",
+        "editor.selectionBackground": "#313244",
+        "editor.selectionHighlightBackground": "#585b7040", // Mais transparente
+        "editor.wordHighlightBackground": "#585b7040",
+        "editor.findMatchBackground": "#D7C99550", // Dourado mais transparente
+        "editor.findMatchHighlightBackground": "#E5C73650",
+        "editorIndentGuide.background": "#313244",
+        "editorIndentGuide.activeBackground": "#585b70",
+        "editorRuler.foreground": "#313244", // Linhas verticais de régua
+        "editorWhitespace.foreground": "#585b7040",
+
+        // --- Barra de Rolagem ---
+        "scrollbarSlider.background": "#5D68A6",
+        "scrollbarSlider.hoverBackground": "#7AA2F7",
+        "scrollbarSlider.activeBackground": "#7AA2F7",
+
+        // --- Peek View (Go to Definition, etc.) ---
+        "peekViewEditor.background": "#1A1B26",
+        "peekViewResult.background": "#313244",
+        "peekViewTitle.background": "#313244",
+        "peekViewBorder": "#5D68A6",
+
+        // --- Botões ---
+        "button.background": "#5D68A6",
+        "button.foreground": "#F0EDE9",
+        "button.hoverBackground": "#7AA2F7",
+
+        // --- Input Fields ---
+        "input.background": "#313244",
+        "input.foreground": "#E0DCD3",
+        "input.border": "#585b70",
+        "input.placeholderForeground": "#585b70",
+        "inputValidation.errorBackground": "#C34043",
+        "inputValidation.errorBorder": "#E75A64",
+        "inputValidation.infoBackground": "#5D68A6",
+        "inputValidation.infoBorder": "#7AA2F7",
+        "inputValidation.warningBackground": "#D7C995",
+        "inputValidation.warningBorder": "#E5C736",
+
+        // --- Badges (Notificações em ícones) ---
+        "badge.background": "#5D68A6",
+        "badge.foreground": "#F0EDE9",
+
+        // --- Terminal Integrado ---
+        "terminal.background": "#1A1B26",
+        "terminal.foreground": "#E0DCD3",
+        "terminal.ansiBlack": "#313244",
+        "terminal.ansiRed": "#C34043",
+        "terminal.ansiGreen": "#688080",
+        "terminal.ansiYellow": "#D7C995",
+        "terminal.ansiBlue": "#5D68A6",
+        "terminal.ansiMagenta": "#A16AA1",
+        "terminal.ansiCyan": "#75BBB3",
+        "terminal.ansiWhite": "#E0DCD3",
+        "terminal.ansiBrightBlack": "#585b70",
+        "terminal.ansiBrightRed": "#E75A64",
+        "terminal.ansiBrightGreen": "#80A8A8",
+        "terminal.ansiBrightYellow": "#E5C736",
+        "terminal.ansiBrightBlue": "#7AA2F7",
+        "terminal.ansiBrightMagenta": "#BB9AF7",
+        "terminal.ansiBrightCyan": "#8CD3CB",
+        "terminal.ansiBrightWhite": "#F0EDE9"
+
+    },
+    "tokenColors": [
+        // --- Cores da Sintaxe (Token Colors) ---
+        {
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {
+                "foreground": "#585b70",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": ["string", "punctuation.definition.string"],
+            "settings": {
+                "foreground": "#D7C995"
+            }
+        },
+        {
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#D7C995"
+            }
+        },
+        {
+            "scope": ["keyword", "storage.modifier", "storage.type"],
+            "settings": {
+                "foreground": "#7AA2F7"
+            }
+        },
+        {
+            "scope": ["constant.language", "variable.language"],
+            "settings": {
+                "foreground": "#BB9AF7"
+            }
+        },
+        {
+            "scope": ["entity.name.function", "support.function"],
+            "settings": {
+                "foreground": "#E5C736"
+            }
+        },
+        {
+            "scope": ["entity.name.type", "entity.name.class", "support.type", "support.class"],
+            "settings": {
+                "foreground": "#A16AA1"
+            }
+        },
+        {
+            "scope": ["variable.parameter", "variable.other.property"],
+            "settings": {
+                "foreground": "#E0DCD3"
+            }
+        },
+        {
+            "scope": "entity.name.tag",
+            "settings": {
+                "foreground": "#E75A64"
+            }
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "settings": {
+                "foreground": "#BB9AF7"
+            }
+        },
+        {
+            "scope": "invalid",
+            "settings": {
+                "foreground": "#C34043"
+            }
+        },
+        {
+            "scope": "operator",
+            "settings": {
+                "foreground": "#75BBB3"
+            }
+        },
+        {
+            "scope": "meta.object-literal.key",
+            "settings": {
+                "foreground": "#E0DCD3"
+            }
+        }
+    ]
+}

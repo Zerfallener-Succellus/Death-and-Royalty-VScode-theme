@@ -1,0 +1,21 @@
+{
+  "name": "death-and-royalty",
+  "displayName": "Death and Royalty",
+  "description": "High contrast dark theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Death and Royalty",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Death and Royalty-color-theme.json"
+      }
+    ]
+  }
+}
