@@ -51,8 +51,6 @@
         "editor.wordHighlightBackground": "#585b7040",
         "editor.findMatchBackground": "#D7C99550", // Dourado mais transparente
         "editor.findMatchHighlightBackground": "#E5C73650",
-        "editorIndentGuide.background": "#313244",
-        "editorIndentGuide.activeBackground": "#585b70",
         "editorRuler.foreground": "#313244", // Linhas verticais de régua
         "editorWhitespace.foreground": "#585b7040",
 
@@ -65,8 +63,7 @@
         "peekViewEditor.background": "#1A1B26",
         "peekViewResult.background": "#313244",
         "peekViewTitle.background": "#313244",
-        "peekViewBorder": "#5D68A6",
-
+        
         // --- Botões ---
         "button.background": "#5D68A6",
         "button.foreground": "#F0EDE9",
